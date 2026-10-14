@@ -17,7 +17,7 @@
 
 `npm test` 成功：5 项 JavaScript 测试、3 项 Python 测试及全量 90 份译文结构检查。覆盖 HTML 转义、中文与英文全文组合搜索、角色指令与记忆并存、全部章节导出、路由参数、React Flight 字节长度解析、相邻文本记录和缺失引用报错。
 
-另对 90 份模板逐个比较网页复制/下载函数的输出与磁盘 Markdown，逐字一致。通过 HTTP 读取运行中的 catalog.json，确认 complete=true、translatedCount=90。
+另对 90 份模板逐个比较网页下载函数的输出与磁盘 Markdown，逐字一致。复制内容包含所有章节，但按用户要求省略文件说明尾注。通过 HTTP 读取运行中的 catalog.json，确认 complete=true、translatedCount=90。
 
 ## 浏览器验证
 

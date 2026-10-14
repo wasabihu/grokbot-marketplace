@@ -49,7 +49,7 @@ function onRoute(){
  else if(focusView)$(`[data-view="${route.compare?'compare':'zh'}"]`)?.focus({preventScroll:true});
 }
 async function copyTemplate(){
- try{await navigator.clipboard.writeText(toMarkdown(current));notify('已复制完整中文模板，包含所有章节。');}
+ try{await navigator.clipboard.writeText(toMarkdown(current,{includeFooter:false}));notify('已复制完整中文模板，包含所有章节。');}
  catch{notify('浏览器未允许复制，请使用“下载 Markdown”保存模板。');}
 }
 function downloadTemplate(){const blob=new Blob([toMarkdown(current)],{type:'text/markdown;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`${current.id}.zh-CN.md`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify('已开始下载中文 Markdown 模板。');}

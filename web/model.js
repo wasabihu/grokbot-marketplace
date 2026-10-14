@@ -24,7 +24,7 @@ export function getEntries(template,section) {
 export function entryText(entry) {
  return entry?.content||entry?.description||entry?.summary||'';
 }
-export function toMarkdown(bot) {
+export function toMarkdown(bot,{includeFooter=true}={}) {
  const z=bot.zh;const lines=[`# ${z.name}`,'',`原名：${bot.en.name}`,`作者：${bot.en.creatorName}`,`来源：https://x.ai/bot/marketplace/bots/${encodeURIComponent(bot.id)}`,'',z.description||z.summary||''];
  if(z.sourceNotes?.length) lines.push('','> 原文说明：'+z.sourceNotes.join('；'));
  for(const [key,label] of Object.entries(SECTIONS)) {
@@ -34,7 +34,7 @@ export function toMarkdown(bot) {
    if(entry.content&&entry.description&&entry.content!==entry.description) lines.push('补充说明：',entry.description,'');
   }
  }
- lines.push('---','本文件为原站公开模板的非官方中文译本。运行或导入请前往原站；应用连接与运行环境需另行配置。','');
+ if(includeFooter) lines.push('---','本文件为原站公开模板的非官方中文译本。运行或导入请前往原站；应用连接与运行环境需另行配置。','');
  return lines.join('\n');
 }
 export function readRoute(hash) {
