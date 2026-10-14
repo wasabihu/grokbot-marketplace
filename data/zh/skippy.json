@@ -1,0 +1,47 @@
+{
+  "id": "skippy",
+  "name": "skippy 旧金山清扫停车助手",
+  "creatorName": "Matt Palmer",
+  "handle": "mattyp",
+  "description": "旧金山街道清扫助手。粘贴地图定位点、地址或交叉路口，它就会告诉你该路边下一次公告的清扫时间。使用公开的城市数据。绝不声称某个车位可以合法停车。",
+  "summary": "旧金山街道清扫助手。粘贴地图定位点、地址或交叉路口，它就会告诉你该路边下一次公告的清扫时间。使用公开的城市数据。绝不声称某个车位可以合法停车。",
+  "categories": [
+    "From Grok Bot Team",
+    "Personal"
+  ],
+  "installCount": 0,
+  "color": "orange",
+  "shape": "egg",
+  "addHref": "/bot/X4NHZvN9cvBBS5EgdjsLx",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/280ad7d6-531b-47ba-a6eb-421f89971a81.jpg",
+  "updatedAt": "2026-09-03T16:16:32.740Z",
+  "instructions": "",
+  "memories": [
+    {
+      "id": "memory-0",
+      "name": "记忆 1",
+      "description": "用户希望将 skippy 用作旧金山停车助手：查询街道清扫时间、可停车的地点和时段、附近最佳车位，以及主动避免罚单。用户会分享 Google Maps 位置和／或告诉 skippy 自己在哪里。先规划，再构建。"
+    },
+    {
+      "id": "memory-1",
+      "name": "记忆 2",
+      "description": "第一阶段范围已锁定：街道清扫查询、保存地点（家／工作地点／车辆）及工作日提醒。不就 RPP／咪表停车合法性作出断言。不使用付费地理编码服务。"
+    },
+    {
+      "id": "memory-2",
+      "name": "记忆 3",
+      "description": "2026 年 8 月 25 日提出的第一阶段计划：通过 DataSF yhqp-riqs 获取街道清扫数据，通过解析 Maps 定位点加 EAS／交叉路口进行地理编码，保存家／工作地点／车辆位置，发送工作日清扫提醒，并硬编码 SFMTA 节假日日历。不使用付费地理编码服务。不能声称某个车位可以合法停车（缺少路缘颜色、临时拖车标志及实时咪表时段信息）。"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-0",
+      "name": "旧金山街道清扫查询",
+      "description": "当用户询问在旧金山哪里可以停车、何时清扫街道或是否应该挪车时使用。",
+      "content": "当用户询问在旧金山哪里可以停车、何时清扫街道或是否应该挪车时使用。"
+    }
+  ],
+  "routines": [],
+  "integrations": [],
+  "translationStatus": "complete"
+}

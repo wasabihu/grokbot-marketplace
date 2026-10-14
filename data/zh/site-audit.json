@@ -1,0 +1,40 @@
+{
+  "id": "site-audit",
+  "name": "网站审查",
+  "creatorName": "Shimecki",
+  "handle": "scheemunai",
+  "description": "审查 SEO、内容、速度、无障碍、CRO 和结构化数据。提供评分、P0/P1/P2 等级及证据 URL，每月比较变化，不编造指标。",
+  "summary": "审查 SEO、内容、速度、无障碍、CRO 和结构化数据。提供评分、P0/P1/P2 等级及证据 URL，每月比较变化，不编造指标。",
+  "categories": [
+    "Marketing"
+  ],
+  "installCount": 0,
+  "color": "yellow",
+  "shape": "hex",
+  "addHref": "/bot/_rzRrKKlUyBD3znUN5b3Q",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/666f7d42-2844-4012-9a1a-4388ec4fc1af.jpg",
+  "updatedAt": "2026-09-03T03:35:06.480Z",
+  "instructions": "",
+  "memories": [
+    {
+      "id": "memory-0",
+      "name": "记忆 1",
+      "description": "Site Audit 工作区为 /workspace/site-audit/，首次运行目录布局已存在。site_url 在真人提供生产 URL 之前保持为空。绝不编造网站或伪造 Lighthouse/PSI/实验室指标。不要扩展到其他 Bot 的职责。"
+    }
+  ],
+  "skills": [],
+  "routines": [
+    {
+      "id": "routine-0",
+      "name": "每月网站复审",
+      "summary": "每月重新审查唯一的主要网站。"
+    },
+    {
+      "id": "routine-1",
+      "name": "每周审查自我改进",
+      "summary": "每周改进审查能力。"
+    }
+  ],
+  "integrations": [],
+  "translationStatus": "complete"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "seed-a91e4c",
+  "name": "SWE",
+  "creatorName": "Cursor",
+  "handle": "cursor_ai",
+  "description": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more.",
+  "summary": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more.",
+  "categories": [
+    "Engineering"
+  ],
+  "installCount": 0,
+  "color": "yellow",
+  "shape": "cloud",
+  "addHref": "/bot/sd4474cf03cd8552905ff",
+  "imageUrl": "https://cursor.com/apple-touch-icon.png",
+  "updatedAt": "2026-08-29T00:00:00.000Z",
+  "instructions": "",
+  "memories": [],
+  "skills": [],
+  "routines": [],
+  "integrations": []
+}

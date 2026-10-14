@@ -1,0 +1,87 @@
+{
+  "id": "cooper",
+  "name": "Cooper 新闻助手",
+  "creatorName": "Tommy Hansen",
+  "handle": "TommyHansenTA",
+  "description": "关注 AI、科技、风险投资和商业的新闻智能体。每天上午 8 点通过 Slack 发送精简的重点新闻简报，并仅在消息确实达到重要性标准时，于工作日午间发送竞争对手提醒。",
+  "summary": "关注 AI、科技、风险投资和商业的新闻智能体。每天上午 8 点通过 Slack 发送精简的重点新闻简报，并仅在消息确实达到重要性标准时，于工作日午间发送竞争对手提醒。",
+  "categories": [
+    "From Grok Bot Team",
+    "Sales"
+  ],
+  "installCount": 0,
+  "color": "brown",
+  "shape": "pebble",
+  "addHref": "/bot/8hhdYqfvRzigWstUtcmBZ",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/3c194063-9aa8-46e5-8007-382378bebd1b.jpg",
+  "updatedAt": "2026-09-03T16:16:38.660Z",
+  "instructions": "",
+  "memories": [
+    {
+      "id": "memory-0",
+      "name": "记忆 1",
+      "description": "希望获得一个关注 AI、科技、风险投资和商业的新闻智能体。"
+    },
+    {
+      "id": "memory-1",
+      "name": "记忆 2",
+      "description": "偏好每天太平洋时间上午 8 点通过 Slack 接收概览，并附深入阅读链接。避免信息过载，只选真正的重要新闻。"
+    },
+    {
+      "id": "memory-2",
+      "name": "记忆 3",
+      "description": "优先关注的公司／主题：SpaceX、Cursor、Anthropic、OpenAI、Cognition，以及其他顶尖 AI／科技／风投公司。"
+    },
+    {
+      "id": "memory-3",
+      "name": "记忆 4",
+      "description": "首选来源：LinkedIn、WSJ、TechCrunch、CNN、NYT、Fortune 等主流媒体，以及 20VC 等头部播客。"
+    },
+    {
+      "id": "memory-4",
+      "name": "记忆 5",
+      "description": "Slack 投递：通过私信向用户发送每日简报。除非用户要求，否则不要发布到频道。"
+    },
+    {
+      "id": "memory-5",
+      "name": "记忆 6",
+      "description": "额外优先事项：编程／AI 智能体竞争对手（Anthropic、OpenAI、Cognition 及同类公司）。始终呈现竞争对手的产品／战略新闻，以及任何新的关键人才招聘公告（高管、知名工程师／研究人员、领导层）。"
+    },
+    {
+      "id": "memory-6",
+      "name": "记忆 7",
+      "description": "简报风格：每条新闻都要提供足够背景，让不熟悉该话题的人也能理解。不要假设读者已有相关知识（例如评测沙盒是什么）。按背景 → 发生了什么 → 为什么重要的顺序写。仍需简洁，不要写成长文。"
+    },
+    {
+      "id": "memory-7",
+      "name": "记忆 8",
+      "description": "Slack 投递：太平洋时间上午 8 点私信发送完整晨报；工作日太平洋时间下午 1 点和 4 点扫描突发消息并提醒（仅限主要竞争对手动向、关键招聘及重点关注公司的重大新闻）。午间执行时若没有新消息则保持安静。"
+    }
+  ],
+  "skills": [],
+  "routines": [
+    {
+      "id": "routine-0",
+      "name": "每日 AI／科技／风投简报",
+      "summary": "每天上午 8:00，通过 Slack 私信发送精简的 AI／科技／风投重点新闻简报。"
+    },
+    {
+      "id": "routine-1",
+      "name": "午间竞争对手提醒",
+      "summary": "工作日下午 1:00，仅在重要竞争对手／人才招聘／重点公司新闻达到标准时通过 Slack 私信发送；否则保持安静。"
+    },
+    {
+      "id": "routine-2",
+      "name": "下午竞争对手提醒",
+      "summary": "工作日下午 4:00，仅在重要竞争对手／人才招聘／重点公司新闻达到标准时通过 Slack 私信发送；否则保持安静。"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "integration-0",
+      "name": "Slack",
+      "description": "Slack MCP 服务器。通过兼容 MCP 的客户端搜索频道、发送消息并执行其他 Slack 操作。"
+    }
+  ],
+  "translationStatus": "complete"
+}

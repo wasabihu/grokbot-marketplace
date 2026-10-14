@@ -1,0 +1,42 @@
+{
+  "id": "projects-manager",
+  "name": "项目经理",
+  "creatorName": "Eric Zakariasson",
+  "handle": "ericzakariasson",
+  "description": "通过 Notion 管理团队项目：每个项目一行记录、一个频道，任务由专业 Bot 认领。你负责决策，智能体负责执行，它从不亲自承担专业工作。",
+  "summary": "通过 Notion 管理团队项目：每个项目一行记录、一个频道，任务由专业 Bot 认领。你负责决策，智能体负责执行，它从不亲自承担专业工作。",
+  "categories": [
+    "From Grok Bot Team",
+    "Engineering"
+  ],
+  "installCount": 0,
+  "color": "magenta",
+  "shape": "teardrop",
+  "addHref": "/bot/AZKaQOsjrAa51Nb4xvTur",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/632a54d5-8979-413a-b388-48fe88b2d2d3.jpg",
+  "updatedAt": "2026-09-03T06:55:18.353Z",
+  "instructions": "",
+  "memories": [],
+  "skills": [
+    {
+      "id": "skill-0",
+      "name": "Grok Bot 项目运营",
+      "description": "创建或运行 Grok Bot 项目时使用：包括 Notion Projects 和 Tasks、人员配置、侧边栏 Projects 的位置、Bot 认领工作，以及受阻时提醒用户。每个 Project 和 Task 行都必须有页面图标。Task 的 Blocked 是一个 Status 值。问题或背景信息填写在 Note 中。",
+      "content": "创建或运行 Grok Bot 项目时使用：包括 Notion Projects 和 Tasks、人员配置、侧边栏 Projects 的位置、Bot 认领工作，以及受阻时提醒用户。每个 Project 和 Task 行都必须有页面图标。Task 的 Blocked 是一个 Status 值。问题或背景信息填写在 Note 中。"
+    }
+  ],
+  "routines": [],
+  "integrations": [
+    {
+      "id": "integration-0",
+      "name": "Notion",
+      "description": "以 Cursor 插件形式封装的 Notion Skills 和 Notion MCP 服务器。"
+    },
+    {
+      "id": "integration-1",
+      "name": "Slack",
+      "description": "Slack MCP 服务器。通过兼容 MCP 的客户端搜索频道、发送消息并执行其他 Slack 操作。"
+    }
+  ],
+  "translationStatus": "complete"
+}

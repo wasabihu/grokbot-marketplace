@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101113">
+<meta name="description" content="Grok Bot 模板中文详情库：阅读每个 Bot 的工作规则、技能、例行任务与应用集成，支持中英对照和 Markdown 下载。">
+<title>Bot 中文库 · Grok Bot 模板详情</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./web/styles.css">
+<script type="module" src="./web/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="header">
+  <button class="mobile-menu" id="menu-toggle" aria-controls="sidebar" aria-expanded="false" aria-label="打开模板目录">☰</button>
+  <a class="wordmark" href="#bot=pg">Bot <span>中文库</span><span class="wordmark-dot" aria-hidden="true"></span></a>
+  <span class="header-note">读懂每一个 Bot。</span>
+  <a class="source-link" href="https://x.ai/bot/marketplace" target="_blank" rel="noopener noreferrer">Grok 原站 <span aria-hidden="true">↗</span></a>
+</header>
+<div class="scrim" id="scrim" hidden></div>
+<aside class="sidebar" id="sidebar" aria-label="模板目录">
+  <div class="sidebar-tools">
+    <label class="search-box" for="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" aria-label="搜索 Bot、用途或作者" placeholder="搜索 Bot、用途或作者" autocomplete="off" spellcheck="false"><kbd>/</kbd></label>
+    <div class="categories" id="categories" aria-label="按分类筛选"></div>
+    <div class="list-meta"><span id="result-count" aria-live="polite">正在载入模板…</span><button id="clear-filters" hidden>重置筛选</button></div>
+  </div>
+  <nav class="bot-list" id="bot-list" aria-label="Bot 列表"></nav>
+  <div class="sidebar-footer"><span class="status-dot"></span><span id="snapshot-date">公开模板中文译本</span></div>
+</aside>
+<main id="main" tabindex="-1"><div class="loading-state"><span class="spinner"></span><p>正在打开中文模板库…</p></div></main>
+<div class="toast" role="status" id="toast" hidden></div>
+</body>
+</html>

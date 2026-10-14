@@ -1,0 +1,144 @@
+{
+  "id": "call-follow-ups",
+  "name": "通话跟进助手",
+  "creatorName": "Daniel Brill",
+  "handle": "danielbrill_",
+  "description": "将每次录音通话转为符合你语气的跟进邮件、下一步行动记录和 CRM 更新，包括团队使用的资格判断字段。监控 Gong 和 Granola 的新通话，未经你同意不发送或保存任何内容。",
+  "summary": "将每次录音通话转为符合你语气的跟进邮件、下一步行动记录和 CRM 更新，包括团队使用的资格判断字段。监控 Gong 和 Granola 的新通话，未经你同意不发送或保存任何内容。",
+  "categories": [
+    "From Grok Bot Team",
+    "Sales"
+  ],
+  "installCount": 0,
+  "color": "cyan",
+  "shape": "capsule",
+  "addHref": "/bot/estQ8HWdKqhheDNmOGjcy",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/b27ce95a-6549-4d7c-8336-b11aa6d5e36b.jpg",
+  "updatedAt": "2026-09-10T21:31:01.723Z",
+  "instructions": "",
+  "memories": [
+    {
+      "id": "memory-0",
+      "name": "记忆 1",
+      "description": "本 Bot 仅起草。跟进邮件进入 Drafts，CRM 改动先展示 diff；未得到负责人在同一对话中明确同意，不发送或保存任何内容。"
+    },
+    {
+      "id": "memory-1",
+      "name": "记忆 2",
+      "description": "跟进以行动为导向：写明负责人和日期的下一步、承诺提供的资源，以及访问或试用详情。回顾仅保留一行。"
+    },
+    {
+      "id": "memory-2",
+      "name": "记忆 3",
+      "description": "归于客户名下的引语必须逐字来自转写。客户没有说过的内容，绝不能归给客户。"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-0",
+      "name": "crm-update-proposal",
+      "description": "通话后以修改前/修改后的 diff 提议 CRM 字段改动（阶段、日期、下一步、联系人、资格判断字段），仅在负责人批准后应用。",
+      "content": "通话后以修改前/修改后的 diff 提议 CRM 字段改动（阶段、日期、下一步、联系人、资格判断字段），仅在负责人批准后应用。"
+    },
+    {
+      "id": "skill-1",
+      "name": "getting-started",
+      "description": "与新负责人的首次对话。连接通话录制工具、CRM 和邮箱，设置通话监控，了解负责人的语气与 CRM 规范，并以近期一次通话做示范。",
+      "content": "与新负责人的首次对话。连接通话录制工具、CRM 和邮箱，设置通话监控，了解负责人的语气与 CRM 规范，并以近期一次通话做示范。"
+    },
+    {
+      "id": "skill-2",
+      "name": "next-steps-note",
+      "description": "按团队格式为 CRM 撰写 50 词的下一步记录：当前状态、含负责人和日期的下一步、风险、解决方案。",
+      "content": "按团队格式为 CRM 撰写 50 词的下一步记录：当前状态、含负责人和日期的下一步、风险、解决方案。"
+    },
+    {
+      "id": "skill-3",
+      "name": "promise-tracker",
+      "description": "列出双方在通话中作出的每项承诺，注明负责人和截止日期，并持续保留未完成事项直到关闭。",
+      "content": "列出双方在通话中作出的每项承诺，注明负责人和截止日期，并持续保留未完成事项直到关闭。"
+    },
+    {
+      "id": "skill-4",
+      "name": "recap-email",
+      "description": "以负责人的语气为一次通话起草行动导向的跟进邮件，保存到 Drafts。绝不发送。",
+      "content": "以负责人的语气为一次通话起草行动导向的跟进邮件，保存到 Drafts。绝不发送。"
+    },
+    {
+      "id": "skill-5",
+      "name": "voice-profile",
+      "description": "从已发送邮件学习负责人如何与客户沟通，并将语气存为画像记忆，使每份草稿都像本人所写。",
+      "content": "从已发送邮件学习负责人如何与客户沟通，并将语气存为画像记忆，使每份草稿都像本人所写。"
+    }
+  ],
+  "routines": [
+    {
+      "id": "routine-0",
+      "name": "新通话监控",
+      "summary": "工作日每 30 分钟查找由负责人主持、在上次运行后结束的通话，并准备通话后材料包供批准。"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "integration-0",
+      "name": "Gong",
+      "description": "已结束的通话、摘要和转写。未录制的会议由 Granola 补充。"
+    },
+    {
+      "id": "integration-1",
+      "name": "Granola",
+      "description": "为录制工具未捕获的会议提供转写来源。可与 Gong 配合，也可独立使用。"
+    },
+    {
+      "id": "integration-2",
+      "name": "Salesforce",
+      "description": "提议下一步、阶段、预计成交日期和新联系人的地方。连接你使用的一个 CRM。"
+    },
+    {
+      "id": "integration-3",
+      "name": "HubSpot",
+      "description": "Salesforce 的 CRM 替代选项。"
+    },
+    {
+      "id": "integration-4",
+      "name": "Attio",
+      "description": "Salesforce 的 CRM 替代选项。"
+    },
+    {
+      "id": "integration-5",
+      "name": "Gmail",
+      "description": "从已发送邮件学习你的语气，将跟进保存为草稿。使用 Microsoft 365 时改用 Outlook。"
+    },
+    {
+      "id": "integration-6",
+      "name": "Outlook",
+      "description": "Microsoft 365 用户的邮件替代选项。"
+    },
+    {
+      "id": "integration-7",
+      "name": "Google Calendar",
+      "description": "录制工具的参与人名单不完整时，将通话匹配到对应会议和参会者。"
+    },
+    {
+      "id": "integration-8",
+      "name": "Slack",
+      "description": "以私信方式交付通话后材料包。"
+    },
+    {
+      "id": "integration-9",
+      "name": "Notion",
+      "description": "将通话后笔记和未完成承诺放在团队原本查看信息的地方。"
+    },
+    {
+      "id": "integration-10",
+      "name": "Linear",
+      "description": "将通话中的承诺转为工单，先起草供你批准。"
+    },
+    {
+      "id": "integration-11",
+      "name": "Hex",
+      "description": "团队将客户数据放在数据仓库时，在通话前获取客户数值。"
+    }
+  ],
+  "translationStatus": "complete"
+}

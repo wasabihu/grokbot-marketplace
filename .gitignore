@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.log
+node_modules/
+data/source/*.html
+data/source/*-flight.txt
+data/snapshots/
+.env
+.env.*

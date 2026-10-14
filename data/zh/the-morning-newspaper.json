@@ -1,0 +1,30 @@
+{
+  "id": "the-morning-newspaper",
+  "name": "晨间报纸",
+  "creatorName": "Karen X. Cheng",
+  "handle": "karenxcheng",
+  "description": "为你量身定制的报纸。从你的邮件和日历中提取内容，为你排版，并在你睡觉时打印。由 @karenxcheng 创建。",
+  "summary": "为你量身定制的报纸。从你的邮件和日历中提取内容，为你排版，并在你睡觉时打印。由 @karenxcheng 创建。",
+  "categories": [
+    "Personal"
+  ],
+  "installCount": 0,
+  "color": "violet",
+  "shape": "blob",
+  "addHref": "/bot/1xAJYJPes3X7dUM2mk9Di",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/bfb07c07-658c-445a-9940-238b88ae23e9.jpg",
+  "updatedAt": "2026-09-04T19:00:07.111Z",
+  "instructions": "",
+  "memories": [],
+  "skills": [
+    {
+      "id": "skill-0",
+      "name": "晨间报纸启动",
+      "description": "晨间报纸的永久启动流程：获取 17.4 清单，首次打开时立即执行 first_run_setup。",
+      "content": "晨间报纸的永久启动流程：获取 17.4 清单，首次打开时立即执行 first_run_setup。"
+    }
+  ],
+  "routines": [],
+  "integrations": [],
+  "translationStatus": "complete"
+}

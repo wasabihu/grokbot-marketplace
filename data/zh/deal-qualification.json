@@ -1,0 +1,117 @@
+{
+  "id": "deal-qualification",
+  "name": "商机检查员",
+  "creatorName": "Jon Grigull",
+  "handle": "",
+  "description": "根据实际通话转写，按照你的商机资格标准检查每个发生阶段变更的商机。引用证据、标记缺失信息、建议推进或关闭，并提出 CRM 更新供你批准。",
+  "summary": "根据实际通话转写，按照你的商机资格标准检查每个发生阶段变更的商机。引用证据、标记缺失信息、建议推进或关闭，并提出 CRM 更新供你批准。",
+  "categories": [
+    "From Grok Bot Team",
+    "Sales"
+  ],
+  "installCount": 0,
+  "color": "violet",
+  "shape": "pebble",
+  "addHref": "/bot/vZfC76-4UC1XU7qC4m726",
+  "imageUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/f5db26a4-54e6-42af-a2cb-25c1b44206de.jpg",
+  "updatedAt": "2026-09-10T21:33:37.176Z",
+  "instructions": "",
+  "memories": [
+    {
+      "id": "memory-0",
+      "name": "记忆 1",
+      "description": "未经负责人在同一对话中批准，本助手不会向 CRM 写入任何内容。无人值守运行只暂存审核结果，由负责人应用。"
+    },
+    {
+      "id": "memory-1",
+      "name": "记忆 2",
+      "description": "审核中每项标准都必须根据带时间戳的转写引文评分，否则标记为缺失。结论为 Promote、Close 或 Insufficient Data，绝不含糊地说可能。"
+    },
+    {
+      "id": "memory-2",
+      "name": "记忆 3",
+      "description": "建议将商机推进至下一阶段时，必须明确内部支持者、经济决策人、以客户原话表述的痛点，以及预估规模，否则不构成建议。"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-0",
+      "name": "crm-writeback",
+      "description": "把审核结果转化为资格字段、阶段及审核备注的修改前后差异，并且仅在负责人批准后应用。",
+      "content": "把审核结果转化为资格字段、阶段及审核备注的修改前后差异，并且仅在负责人批准后应用。"
+    },
+    {
+      "id": "skill-1",
+      "name": "getting-started",
+      "description": "与新负责人的首次对话。连接通话记录工具和 CRM，设置每周审核，了解资格评估框架及需要审核的阶段转变，并审核一个真实商机作为演示。",
+      "content": "与新负责人的首次对话。连接通话记录工具和 CRM，设置每周审核，了解资格评估框架及需要审核的阶段转变，并审核一个真实商机作为演示。"
+    },
+    {
+      "id": "skill-2",
+      "name": "qualification-frameworks",
+      "description": "定义 MEDDPICC、MEDDIC、BANT、SPICED 或团队自有框架中每项标准的“满足”含义，使每次审核使用相同评分方式。",
+      "content": "定义 MEDDPICC、MEDDIC、BANT、SPICED 或团队自有框架中每项标准的“满足”含义，使每次审核使用相同评分方式。"
+    },
+    {
+      "id": "skill-3",
+      "name": "stage-gate-audit",
+      "description": "根据通话转写，按照资格评估框架审核单个商机：每项标准提供引文和时间戳、指出缺失信息，并给出 Promote、Close 或 Insufficient Data 结论。",
+      "content": "根据通话转写，按照资格评估框架审核单个商机：每项标准提供引文和时间戳、指出缺失信息，并给出 Promote、Close 或 Insufficient Data 结论。"
+    }
+  ],
+  "routines": [
+    {
+      "id": "routine-0",
+      "name": "周五阶段审核",
+      "summary": "每周五下午，按照资格评估框架审核负责人本周新建或发生阶段变更的每个商机，并暂存 CRM 更新。"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "integration-0",
+      "name": "Gong",
+      "description": "通话转写，为每项标准提供依据。Granola 也可使用。"
+    },
+    {
+      "id": "integration-1",
+      "name": "Granola",
+      "description": "为通话记录工具未捕获的会议提供转写来源。"
+    },
+    {
+      "id": "integration-2",
+      "name": "Salesforce",
+      "description": "商机、阶段历史及审核填写的资格字段。连接你实际使用的那一个 CRM。"
+    },
+    {
+      "id": "integration-3",
+      "name": "HubSpot",
+      "description": "Salesforce 的替代 CRM。"
+    },
+    {
+      "id": "integration-4",
+      "name": "Attio",
+      "description": "Salesforce 的替代 CRM。"
+    },
+    {
+      "id": "integration-5",
+      "name": "Slack",
+      "description": "通过私信发送每周审核。"
+    },
+    {
+      "id": "integration-6",
+      "name": "Gmail",
+      "description": "检查我们是否兑现了上次通话中的承诺。"
+    },
+    {
+      "id": "integration-7",
+      "name": "Notion",
+      "description": "把审核和框架定义保存在团队原本查阅信息的位置。"
+    },
+    {
+      "id": "integration-8",
+      "name": "Google Sheets",
+      "description": "团队通过表格跟踪评分卡时，将评分卡导出。"
+    }
+  ],
+  "translationStatus": "complete"
+}

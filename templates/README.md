@@ -1,0 +1,95 @@
+# Bot 中文模板目录
+
+来源：[Grok Bot Marketplace](https://x.ai/bot/marketplace)
+采集日期：2026-10-14
+
+- [dr eggbot 机器人设计师](dr-eggbot-v2.zh-CN.md) · dr eggbot · Lauren Tan
+- [Overheard 品牌提及监测](overheard.zh-CN.md) · Overheard · Lenny Rachitsky
+- [Tradbot 家庭事务助手](tradbot-2.zh-CN.md) · Tradbot · Claire Vo
+- [项目经理](projects-manager.zh-CN.md) · Projects Manager · Eric Zakariasson
+- [主动拓客](pg.zh-CN.md) · Outbound Prospecting · Krista Letz
+- [SEO 与 AEO 内容工作台](seo-aeo-desk.zh-CN.md) · SEO & AEO Desk · Adam Tanguay
+- [Imogen 图片解读助手](imogen.zh-CN.md) · Imogen · Kent C. Dodds
+- [Researchy 研究核查台](researchy.zh-CN.md) · Researchy · Farzad
+- [Haggle SaaS 议价助手](haggle-bot.zh-CN.md) · Haggle Bot · Daniel Gartshein
+- [Credit Card Max 信用卡权益助手](credit-card-max.zh-CN.md) · Credit Card Max · Trevin Chow
+- [招聘协调员](mr-toms.zh-CN.md) · Recruiting Coordinator · Tommy Hansen
+- [静帧与片段工作台](image-gen-bot.zh-CN.md) · Stills & Clips Desk · Matt Palmer
+- [figma bro 设计交付助手](figma-bro.zh-CN.md) · figma bro · John Bai
+- [GTM 跟进闭环助手](follow-through-agent.zh-CN.md) · GTM Loop Closer · Jon Grigull
+- [销售通话教练](sales-call-coach.zh-CN.md) · Sales Call Coach · Daniel Brill
+- [会议回顾演示文稿](echo.zh-CN.md) · Meeting Recap Deck · Krista Letz
+- [融资演示教练](pitch-deck-coach.zh-CN.md) · Pitch Deck Coach · Hiten Shah
+- [Clip Bot 高光剪辑助手](clip-bot.zh-CN.md) · Clip Bot · This Week in AI
+- [文案人性化编辑](human-copywriter.zh-CN.md) · Copy Humanizer · Massimo De Luisa
+- [AI 搜索可见度助手](ai-search-visibility.zh-CN.md) · AI Search Visibility · Adam Tanguay
+- [Lingxi 的工程监督助手](engineer-bot.zh-CN.md) · Lingxi's Engineer Bot · Lingxi Li
+- [tinkabot 插件构建助手](tinkabot.zh-CN.md) · tinkabot · Lauren Tan
+- [Critiquito：设计评审](critiquito.zh-CN.md) · Critiquito: Design Critique · Manuel Muñoz Solera
+- [游戏美术指导](sable-game-art.zh-CN.md) · Game Art Director · Danny Limanseta
+- [家庭机器人](home-robots.zh-CN.md) · Home robots · Sawyer Merritt
+- [Flora：植物养护日志](flora.zh-CN.md) · Flora: Plant Care Log · Rich Silver
+- [人才发现助手](sherlock.zh-CN.md) · Talent Discovery · Tommy Hansen
+- [Cooper 新闻助手](cooper.zh-CN.md) · Cooper · Tommy Hansen
+- [短视频剪辑师](video-editor.zh-CN.md) · Video Editor · Ethan Ng
+- [Distro 营销运营助手](distro-bot.zh-CN.md) · Distro Bot · Shub Gaur
+- [Proto Bot 原型助手](proto-bot.zh-CN.md) · Proto Bot · Shub Gaur
+- [Sell Bot 销售助手](sell-bot.zh-CN.md) · Sell Bot · Shub Gaur
+- [Startup QA Bot 产品测试助手](startup-qa-bot.zh-CN.md) · Startup QA Bot · Shub Gaur
+- [质量验收助手](qa-bot.zh-CN.md) · QA bot · Ulysses Ng
+- [PM 产品经理助手](pm-bot.zh-CN.md) · PM bot · Ulysses Ng
+- [工程负责人](engineering-lead.zh-CN.md) · Engineering Lead · Lauren Tan
+- [Pfp Bot 头像助手](pfp-bot.zh-CN.md) · Pfp Bot · Shub Gaur
+- [Import Bot 配置迁移助手](import-bot.zh-CN.md) · Import Bot · Shub Gaur
+- [Sequencer 外联序列助手](sequencer.zh-CN.md) · Sequencer · Simon Lackowski
+- [营销项目经理](marketing-project-manager.zh-CN.md) · Project Manager · Josh Kim
+- [营销分析师](marketing-analyst.zh-CN.md) · Marketing Analyst · Josh Kim
+- [效果营销助手](performance-marketer.zh-CN.md) · Performance Marketer · Josh Kim
+- [网站运营](website-ops.zh-CN.md) · Website Ops · Josh Kim
+- [产品营销助手](product-marketer.zh-CN.md) · Product Marketer · Josh Kim
+- [市场研究员](market-researcher.zh-CN.md) · Market Researcher · Josh Kim
+- [Stalk Bot 竞品观察助手](stalk-bot.zh-CN.md) · Stalk Bot · Shub Gaur
+- [EBR 与价值演示文稿生成器](ebr-value-deck-builder.zh-CN.md) · EBR & Value Deck Builder · Krista Letz
+- [意向信号拓客助手](signal-prospector.zh-CN.md) · Signal Prospector · Krista Letz
+- [晨间报纸](the-morning-newspaper.zh-CN.md) · The Morning Newspaper · Karen X. Cheng
+- [夜间代码审计工程师](nightly-audit-engineer.zh-CN.md) · Nightly Audit Engineer · Lingxi Li
+- [办公室运营工作台](office-ops-desk.zh-CN.md) · Office Ops Desk · Erika Cabrera
+- [活动邀约工作台](event-request-desk.zh-CN.md) · Event Request Desk · Emma Weyrauch
+- [通话跟进助手](call-follow-ups.zh-CN.md) · Call Follow-Ups · Daniel Brill
+- [Apple 搜索广告评估](apple-search-ads-review.zh-CN.md) · Apple Search Ads Review · Chris Everett
+- [招聘信号监测](hiring-activity-monitor.zh-CN.md) · Hiring Signals · Simon Lackowski
+- [GTM 人脉连接](warm-intro-finder.zh-CN.md) · GTM Connections · Brian Joseph
+- [Pipeline Pulse 销售管道脉搏](pipeline-health-and-forecast.zh-CN.md) · Pipeline Pulse · Krista Letz
+- [商机检查员](deal-qualification.zh-CN.md) · Deal Inspector · Jon Grigull
+- [GTM 潜客开发](prospector.zh-CN.md) · GTM Prospecting · Caro Scalercio
+- [GTM 客户研究](account-research.zh-CN.md) · GTM Account Research · Stefan Markarian
+- [dial bot 电话助手](dial-bot.zh-CN.md) · dial bot · Matt Palmer
+- [skippy 旧金山清扫停车助手](skippy.zh-CN.md) · skippy · Matt Palmer
+- [写作助手](writing-bot.zh-CN.md) · Writing Bot · Matt Palmer
+- [技术演示](tech-demos.zh-CN.md) · Tech Demos · Matt Palmer
+- [高管行政助理](frank.zh-CN.md) · Executive Assistant · Natasha Kuo
+- [公司文档问答](company-docs-q-a.zh-CN.md) · Company Docs Q&A · Anoop Baliga
+- [产品支持收件箱助手](customer-question-drafter.zh-CN.md) · Product Support Inbox Assistant · Anoop Baliga
+- [客户通话教练与助手](customer-call-coach.zh-CN.md) · Customer Call Coach & Assistant · Anoop Baliga
+- [首席健康官](chief-health.zh-CN.md) · Chief Health Officer · AJAC
+- [优惠搜寻助手](deal-hunting.zh-CN.md) · Deal Hunting · Shimecki
+- [Webby 网站管理员](webby.zh-CN.md) · Webby · Farzad
+- [客户研究工作台](account-book.zh-CN.md) · Account Research Desk · Anoop Baliga
+- [客户实证工作台](customer-stories.zh-CN.md) · Customer Proof Desk · Anoop Baliga
+- [合作洽谈教练](dan-lanning.zh-CN.md) · Partnerships Call Coach · Jenna Nanpei
+- [Alfred 机器人组织首席顾问](alfred.zh-CN.md) · Alfred · Robin Delta
+- [线索管道工作台](leadsworth.zh-CN.md) · Lead Pipeline Desk · Miguel Cruz
+- [付费媒体报表台](tally.zh-CN.md) · Paid Media Report Desk · Miguel Cruz
+- [Luma Pages 活动页面助手](luma-pages.zh-CN.md) · Luma Pages · Jenna Nanpei
+- [WTD 贵宾接待规划](wtd.zh-CN.md) · WTD · Jenna Nanpei
+- [活动执行统筹](event-producer.zh-CN.md) · Event Producer · Jenna Nanpei
+- [last30days 近 30 天话题研究](last30days.zh-CN.md) · last30days · Matt Van Horn
+- [网站审查](site-audit.zh-CN.md) · Site Audit · Shimecki
+- [X 每日简报](x-brief.zh-CN.md) · X Brief · Dan McAteer
+- [竞品动态监测](competitor-watching.zh-CN.md) · Competitor Watch · Shimecki
+- [产品创意压力测试](product-idea-stress-test.zh-CN.md) · Product Idea Stress Test · Hiten Shah
+- [广告支出监测](fuse.zh-CN.md) · Ad Spend Watch · Miguel Cruz
+- [NYC Parent 纽约家庭助手](nyc-parent.zh-CN.md) · NYC Parent · Dennison
+- [Love ❤️ 伴侣助手](love.zh-CN.md) · Love ❤️ · Danny Buck
+- [视频剪辑工作台](best-video-editor.zh-CN.md) · Video Edit Desk · X Freeze
+- [SWE 软件工程师](seed-a91e4c.zh-CN.md) · SWE · Cursor
